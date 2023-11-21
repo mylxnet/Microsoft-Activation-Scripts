@@ -54,3 +54,27 @@ Release date: 16-Nov-2023
 ---
 
 <p align="center">Made with Love ❤️</p>
+
+
+
+
+采用硬件激活的方式，重装系统之后，联网也会自动激活
+激活方式可选
+硬件永久激活 Windows
+Ohook 永久激活 Office
+KMS 激活 Windows 至 2038 年
+KMS 激活 180 天
+​ 当然这么厉害的工具，一定给大家找到出处。Github 上的开源项目 Microsoft-Activation-Scripts。项目作者贴心的为大家准备了官方原版 Windows 及 Office 的镜像下载，当然大家自己从官网下载即可。项目作者提供的镜像下载 Download Original Windows & Office
+
+​ 废话不多说直接放激活命令,先演示 Win11 永久激活，后演示 Office
+
+irm https://massgrave.dev/get | iex
+Win11 右键 Windows徽标 终端（管理员）或者搜索 powershell 以管理员身份运行
+
+Win10 及以下版本操作系统 搜索 cmd 以管理员身份运行
+
+如果你打不开以上网址，或者运行命令提示 irm : 无法连接到远程服务器 是网络联通问题，用梯子可以解决，或者使用离线脚本激活工具也行。Microsoft-Activation-Scripts-master.zip
+
+本站备份 Microsoft-Activation-Scripts-master.zip
+
+下载后，解压，进入 MAS 目录下的 All-In-One-Version 双击运行 MAS_AIO.cmd 即可进入激活菜单
